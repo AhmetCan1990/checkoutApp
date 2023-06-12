@@ -59,3 +59,18 @@
     }
   }
 }
+
+#delAllProducts {
+  opacity: 0.9;
+  & i {
+    margin-left: 0.3rem;
+  }
+  &:hover {
+    text-decoration: underline;
+    text-underline-offset: 0.3rem;
+    opacity: 1;
+    & > i {
+      scale: 1.2;
+    }
+  }
+}
