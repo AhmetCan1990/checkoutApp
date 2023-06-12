@@ -5,6 +5,7 @@ const tax = document.getElementById("tax");
 const totalShopping = document.getElementById("totalShopping");
 const totalPrice = document.getElementById("totalPrice");
 const delAllProducts = document.getElementById("delAllProducts");
+const totalProduct = document.getElementById("totalProduct");
 // **********Variables**********
 let shippingPrice = 0;
 let shoppingData = [
@@ -148,5 +149,6 @@ function totalShoppingTable() {
   shipping.innerText = "$" + shippingPrice.toFixed(2);
   totalShopping.innerText = "$" + shoppingSum.toFixed(2);
   totalPrice.innerText = "$" + (shoppingSum * 1.18 + shippingPrice).toFixed(2);
+  totalProduct.innerText = shoppingData.length;
 }
 totalShoppingTable();
