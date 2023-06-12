@@ -15,7 +15,7 @@ let shoppingData = [
     productName: "Hp 15S-FQ5003NT Intel Core i7-1255U",
     productPrice: 699.99,
     discountPrice: 999.99,
-    productQuantity: 2,
+    productQuantity: 1,
   },
   {
     id: 102,
